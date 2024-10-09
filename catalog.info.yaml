@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    'backstage.io/kubernetes-id': rhdh
+    'janus-idp.io/tekton': rhdh
+  name: rhdh-app
+  description: An example of a Backstage application.
+spec:
+  type: service
+  owner: janus-authors
+  lifecycle: production
